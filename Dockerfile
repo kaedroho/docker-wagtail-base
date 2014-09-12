@@ -7,5 +7,4 @@ RUN apt-get install -y build-essential python python-dev python-setuptools libpq
 
 RUN easy_install -U pip
 
-RUN pip install libsass
 RUN pip install wagtail psycopg2
